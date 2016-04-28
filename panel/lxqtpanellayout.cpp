@@ -949,6 +949,16 @@ void LXQtPanelLayout::setPosition(ILXQtPanel::Position value)
 /************************************************
 
  ************************************************/
+void LXQtPanelLayout::rebuild()
+{
+    mLeftGrid->rebuild();
+    mRightGrid->rebuild();
+}
+
+
+/************************************************
+
+ ************************************************/
 bool LXQtPanelLayout::isHorizontal() const
 {
     return mPosition == ILXQtPanel::PositionTop ||
