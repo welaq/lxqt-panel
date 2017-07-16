@@ -9,5 +9,5 @@ Comment=Displays the current CPU load.
 
 
 # Translations
-Comment[lt]=Procesoriaus stebėtojas
-Name[lt]=Procesoriaus apkrova
+Comment[lt]=Rodo esamą procesoriaus apkrovą
+Name[lt]=Procesoriaus prižiūryklė
